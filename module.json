@@ -7,5 +7,25 @@
 	"version": "0.0.1",
 	"minimumCoreVersion": "9",
 	"manifest": "https://raw.githubusercontent.com/jdchittle/foundryvtt-pf2e-shaman/mainline/module.json",
-	"download": "https://github.com/jdchittle/foundryvtt-pf2e-shaman/archive/refs/heads/mainline.zip"
+	"download": "https://github.com/jdchittle/foundryvtt-pf2e-shaman/archive/refs/heads/mainline.zip",
+	"system": [
+		"pf2e"
+	],
+	"dependencies": [
+		{
+			"name": "dnd5e",
+			"type": "system"
+		}
+	],
+	"packs": [
+		{
+			"label": "PF2E Shaman",
+			"entity": "Item",
+			"name": "foundryvtt-pf2e-shaman",
+			"path": "./packs/pf2e-shaman.db",
+			"system": "pf2e",
+			"package": "foundryvtt-pf2e-shaman",
+			"private": false
+		}
+	]
 }
