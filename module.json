@@ -4,8 +4,9 @@
 	"description": "Shaman homebrew class for Pathfinder 2E in Foundry Virtual Table Top.",
 	"author": "jdchittle",
 	"url": "https://github.com/jdchittle/foundryvtt-pf2e-shaman",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"minimumCoreVersion": "9",
+	"compatibleCoreVersion": "9",
 	"manifest": "https://raw.githubusercontent.com/jdchittle/foundryvtt-pf2e-shaman/mainline/module.json",
 	"download": "https://github.com/jdchittle/foundryvtt-pf2e-shaman/archive/refs/heads/mainline.zip",
 	"system": [
@@ -13,7 +14,7 @@
 	],
 	"dependencies": [
 		{
-			"name": "dnd5e",
+			"name": "pf2e",
 			"type": "system"
 		}
 	],
