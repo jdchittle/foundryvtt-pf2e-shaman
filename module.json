@@ -12,21 +12,16 @@
 	"system": [
 		"pf2e"
 	],
-	"dependencies": [
-		{
-			"name": "pf2e",
-			"type": "system"
-		}
-	],
 	"packs": [
 		{
+			"name": "pf2e-shaman",
 			"label": "PF2E Shaman",
+			"system": [
+				"pf2e"
+			],
+			"type": "Item",
 			"entity": "Item",
-			"name": "foundryvtt-pf2e-shaman",
-			"path": "./packs/pf2e-shaman.db",
-			"system": "pf2e",
-			"package": "foundryvtt-pf2e-shaman",
-			"private": false
+			"path": "./packs/pf2e-shaman.db"
 		}
 	]
 }
